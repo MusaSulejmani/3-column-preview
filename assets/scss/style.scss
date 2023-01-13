@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+@import "variables";
+@import "base";
+
+.container {
+  width: 900px;
+  height: 500px;
+  margin: 120px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.sedan {
+  background-color: $corange;
+  min-height: 25rem;
+  width: 17rem;
+  padding: 2.5rem;
+
+  border-radius: 10px 0 0 10px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+
+  .button {
+    color: $corange;
+    &:hover {
+      background-color: $corange;
+      color: $bcolor;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
+
+.suv {
+  background-color: $clightcyan;
+  min-height: 25rem;
+  width: 17rem;
+  padding: 2.5rem;
+
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding-left: 40px;
+
+  .button {
+    color: $clightcyan;
+    &:hover {
+      background-color: $clightcyan;
+      color: $bcolor;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
+
+.luxury {
+  background-color: $cdarkcyan;
+  min-height: 25rem;
+  width: 17rem;
+  padding: 2.5rem;
+
+  border-radius: 0 10px 10px 0;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+
+  .button {
+    color: $cdarkcyan;
+    &:hover {
+      background-color: $cdarkcyan;
+      color: $bcolor;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
+
+.image {
+  margin-bottom: 1.5rem;
+}
+
+.button {
+  font-family: $fLexend;
+  position: absolute;
+  background-color: $bcolor;
+  border: 2px solid $bcolor;
+  border-radius: 20px;
+  height: 50px;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}

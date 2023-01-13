@@ -1,0 +1,24 @@
+* {
+  font-family: $fBig;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color: $bcolor;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  line-height: 0.8;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+p {
+  color: $pfontcolor;
+  font-family: $fLexend;
+  font-weight: 400px;
+  font-size: 15px;
+  margin-top: 1.5rem;
+  margin-bottom: 6rem;
+}
